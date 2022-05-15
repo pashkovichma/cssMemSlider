@@ -43,10 +43,10 @@ body {
 	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
 }
 
-.slide1 { background-image: url(/assets/first.png); }
-.slide2 { background-image: url(/assets/second.png); }
-.slide3 { background-image: url(/assets/third.png); }
-.slide4 { background-image: url(/assets/fourth.png); }
+.slide1 { background-image: url(/assets/images/first.png); }
+.slide2 { background-image: url(/assets/images/second.png); }
+.slide3 { background-image: url(/assets/images/third.png); }
+.slide4 { background-image: url(/assets/images/fourth.png); }
 
 #slide1:checked ~ .slider > .slide1,
 #slide2:checked ~ .slider > .slide2,
