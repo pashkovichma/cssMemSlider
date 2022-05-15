@@ -43,10 +43,10 @@ body {
 	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
 }
 
-.slide1 { background-image: url(/assets/tom_and_jerry_PNG36.png); }
-.slide2 { background-image: url(/assets/tom_and_jerry_PNG50.png); }
-.slide3 { background-image: url(/assets/tom_and_jerry_PNG34.png); }
-.slide4 { background-image: url(/assets/tom_and_jerry_PNG56.png); }
+.slide1 { background-image: url(/assets/first.png); }
+.slide2 { background-image: url(/assets/second.png); }
+.slide3 { background-image: url(/assets/third.png); }
+.slide4 { background-image: url(/assets/fourth.png); }
 
 #slide1:checked ~ .slider > .slide1,
 #slide2:checked ~ .slider > .slide2,
