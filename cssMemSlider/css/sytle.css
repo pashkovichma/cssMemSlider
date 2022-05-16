@@ -5,7 +5,7 @@
 }
 
 body {
-	background: rgb(53, 53, 53)
+	background: rgb(53, 53, 53);
 }
 
 .wrapper {
@@ -44,6 +44,7 @@ body {
 	transform: scale(1.5);
 	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
 }
+
 #slide1:checked ~ .slider > .slide1 > .image,
 #slide2:checked ~ .slider > .slide2 > .image,
 #slide3:checked ~ .slider > .slide3 > .image,
@@ -82,11 +83,23 @@ body {
 	border: 0.2rem solid rgb(69, 85, 180);
 	background-color: rgb(69, 85, 180);
 	border-radius: .5rem;
+	transition: all ease-in-out .5s;
 }
 
 .control-item:hover > .bottom {
 	background-color: white;
 	border-color: white;
+}
+.control-item:active > .bottom {
+	background-color: red;
+	border-color: red;
+}
+
+#slide1:checked ~ .controls-wrapper > .controls > .control-item[for='slide1'] > .bottom,
+#slide2:checked ~ .controls-wrapper > .controls > .control-item[for='slide2'] > .bottom,
+#slide3:checked ~ .controls-wrapper > .controls > .control-item[for='slide3'] > .bottom,
+#slide4:checked ~ .controls-wrapper > .controls > .control-item[for='slide4'] > .bottom{
+	background-color: rgb(53, 53, 53);
 }
 
 @media (max-width: 400px){
